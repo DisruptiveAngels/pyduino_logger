@@ -1,0 +1,8 @@
+tipo=acero al carbono 1206
+diametro=0.030in
+muestreo=10
+sensores=['T1','T2','T3','T5']
+[d:10000, T:30]
+[d:20000, T:50]
+[d:15000, T:70]
+[d:10000, T:80]
