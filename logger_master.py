@@ -38,6 +38,10 @@ def arduinoSerial():
 		if("COM" in port[1] and "COM1" not in port[1]):
 			portname = port[0]
 			break
+		if("ttyUSB" in port[0]):
+			portname = port[0]
+			break
+
 	return portname
 
 def printMenu(cmds):
